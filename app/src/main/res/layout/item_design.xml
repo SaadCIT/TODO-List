@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="11dp"
+    android:layout_marginVertical="11dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:background="#FF5722">
+
+        <TextView
+            android:id="@+id/notetitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tomorrow l have an apoinment"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12-11-1999"
+            android:textColor="#FBE205"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12:12"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

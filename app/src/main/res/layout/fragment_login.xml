@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0E2B77"
+    tools:context=".LoginFragment">
+
+    <EditText
+        android:id="@+id/emailEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Email"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+       android:background="@drawable/background_design"
+        android:padding="10dp"
+        android:textSize="21sp"
+        android:textStyle="bold"/>
+
+
+
+    <EditText
+        android:id="@+id/passEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:background="@drawable/background_design"
+        android:padding="10dp"
+        android:textSize="21sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/forgetTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+        android:textColor="#E30000"
+        android:textStyle="bold"
+        android:textSize="21sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@drawable/background_design"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:textSize="21sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/creatTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Creat New Account"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
